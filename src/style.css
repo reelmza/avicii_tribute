@@ -84,7 +84,6 @@ button {
   justify-content: center;
 
   min-height: 100vh;
-  /* margin-bottom: 5rem; */
 }
 
 /* Logo */
@@ -413,7 +412,7 @@ td:nth-child(2) {
   height: 170vh;
   bottom: -10rem;
   right: 8rem;
-  /* transform: rotate(0deg); */
+  fill: var(--accent);
 }
 
 @media only screen and (min-width: 1024px) {
