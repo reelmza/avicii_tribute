@@ -407,9 +407,9 @@ td:nth-child(2) {
 
 .blob {
   position: absolute;
-  height: 200vh;
+  height: 170vh;
   bottom: -10rem;
-  right: 10rem;
+  right: 8rem;
   /* transform: rotate(0deg); */
 }
 
