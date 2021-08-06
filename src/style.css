@@ -6,7 +6,7 @@
 
   --accent: #474747;
   --logo_fill: #eee;
-  --link: #83c9f7;
+  --link: #59b6f3;
 }
 
 :root.light-theme {
@@ -16,7 +16,7 @@
 
   --text-color: #000;
 
-  --accent: #b6eb85;
+  --accent: #eed91f;
   --logo_fill: #000;
 }
 
@@ -111,10 +111,6 @@ button {
   font-weight: 800;
   line-height: 2.4rem;
   text-align: center;
-}
-
-.header__title h1:nth-child(1) {
-  /* margin-bottom: -0.2rem; */
 }
 
 .header__title h1:nth-child(2) {
