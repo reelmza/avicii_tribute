@@ -405,7 +405,21 @@ td:nth-child(2) {
   fill: var(--accent);
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+
+  .single {
+    min-width: 8rem;
+  }
+
+  .album {
+    min-width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
   html {
     font-size: 24px;
   }
