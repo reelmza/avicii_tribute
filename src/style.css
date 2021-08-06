@@ -124,7 +124,7 @@ button {
 
 /* Header Description */
 .header__slogan {
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
   letter-spacing: 3px;
   /*To Stop text and svg conflict on very small phones*/
 }
