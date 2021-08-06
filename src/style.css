@@ -104,12 +104,14 @@ button {
 .svg-icon--linked {
   fill: var(--link);
 }
-
+.header__title {
+  margin-bottom: 1rem;
+}
 /* Header */
 .header__title h1 {
   font-size: 2.3rem;
   font-weight: 900;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 3rem;
   text-align: center;
 }
@@ -120,23 +122,25 @@ button {
 
 .header__title h1:nth-child(2) {
   font-size: 1.3rem;
-  font-weight: 300;
 }
 
 /* Header Description */
 .header__slogan {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  letter-spacing: 3px;
   /*To Stop text and svg conflict on very small phones*/
 }
 
 .header__slogan h2 {
   font-size: 1.3rem;
   text-align: center;
+  font-weight: 300;
 }
 
 .header__slogan h2:nth-child(2) {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
   text-align: center;
 }
 
