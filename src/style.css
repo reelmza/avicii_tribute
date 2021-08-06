@@ -107,7 +107,7 @@ button {
 
 /* Header */
 .header__title h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 900;
   letter-spacing: 3px;
   line-height: 3rem;
@@ -115,12 +115,12 @@ button {
 }
 
 .header__title h1:nth-child(1) {
-  margin-bottom: -5px;
+  margin-bottom: -0.5rem;
 }
 
 .header__title h1:nth-child(2) {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 /* Header Description */
