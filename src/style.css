@@ -151,11 +151,6 @@ button {
   justify-content: center;
 }
 
-.hero__buttons button.left-button {
-  justify-content: flex-start;
-  padding-left: 1rem;
-}
-
 .hero__buttons button div {
   display: flex;
   align-items: flex-start;
@@ -174,6 +169,8 @@ button {
   background: transparent;
   color: var(--text-color);
   text-shadow: var(--main-bg) 2px 2px 1px;
+  justify-content: flex-start;
+  margin-left: 1.2rem;
 }
 
 .hero__buttons button .svg-icon:not(.last-svg) {
