@@ -117,6 +117,8 @@ button {
   letter-spacing: 3px;
   line-height: 3rem;
   text-align: center;
+
+  text-shadow: 2px 4px 2px var(--main-bg);
 }
 
 .header__title h1:nth-child(1) {
@@ -137,6 +139,7 @@ button {
 .header__slogan h2 {
   font-size: 1.8rem;
   text-align: center;
+  text-shadow: 2px 4px 2px var(--main-bg);
 }
 
 .header__slogan h2:nth-child(2) {
