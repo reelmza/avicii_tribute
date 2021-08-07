@@ -407,6 +407,24 @@ td:nth-child(2) {
   .album {
     min-width: 65%;
   }
+
+  .header__title,
+  .header__slogan {
+    text-align: center;
+  }
+
+  .hero__logo {
+    justify-content: center;
+  }
+
+  .hero__buttons {
+    align-items: center;
+  }
+
+  .hero__buttons button.hero-link {
+    justify-content: center;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
