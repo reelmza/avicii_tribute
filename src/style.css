@@ -29,6 +29,8 @@
 }
 html {
   font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
@@ -74,6 +76,7 @@ button {
 
 .main {
   width: 100%;
+  display: block;
 }
 .hero {
   display: flex;
